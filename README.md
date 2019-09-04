@@ -11,20 +11,22 @@
   * Logging
   
 # Introduction 
-  This Microservice provides the functionality to create the order by the user who has
+  This microservice provides the functionality to create the order by the user who has
   login into the OMS. 
 
 # Testing 
-  We have written a few test cases to test our functionality and also written the negative 
-  tests to test our exceptions if they are working or not.
+  This microservice contains few test cases to test functionality and also the negative 
+  tests to test the exceptions if they are working or not.
 
 # Entities
+  This microservice contains two entities Order and OrderDetails.
   
 # Layers Overview 
-  We have divided the responsibilities into DAO, Service and Controller layers.
+  Different layers like DAO, Service and Controller layers to divide different reponsibility.
 
 # Exception Handling 
-  We have implemented the Exception Handling framework created for the OMS and then implemented our own custom exceptions.
+  This microservice implements the Exception Handling framework created for the OMS and then implemented custom exceptions 
+  for the Order Create story.
 
 # Logging
-  We have implemented the logging framework created for the OMS.  
+  This microservice implements the logging framework created for the OMS.  
